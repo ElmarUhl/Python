@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.3">
+  <object class="tk.Toplevel" id="toplevel1">
+    <property name="geometry">500x300</property>
+    <property name="title" translatable="yes">Title</property>
+    <child>
+      <object class="ttk.Label" id="label1">
+        <property name="background">#ff0000</property>
+        <property name="borderwidth">1</property>
+        <property name="font">{FreeSerif} 20 {}</property>
+        <property name="foreground">#ffffff</property>
+        <property name="text" translatable="yes">Este é o label 1</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button1">
+        <property name="text" translatable="yes">Click me!</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
