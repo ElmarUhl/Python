@@ -17,6 +17,7 @@ button.pack() - empacotamento
 
 texto = StringVar()
 texto.set("texto na variavel")
+number = float(textBox1.get())
 
 label1 = Label(menu,text="Label 1") - label
 label1 = Label(menu,text="label",bg="yellow",fg="#ff0000",font="Arial 20 bold italic",width=40)
@@ -29,9 +30,11 @@ label1 = Label(menu,bg="red",fg = "white",textvariable=texto)
 label1.grid(row=0,column=0)
 Label(menu, width=20, bg="red").grid(column=0)
 Label(menu, bg="green").grid(columnspan=2, sticky="we")
+Label(root, textvariable=final)
 
 t = Entry(root) - caixa de entrada
 l["text"] = t.get() - coloca na label o texto da caixa de entrada t
+final.set(str(round(C,1)) + " graus Celsius")
 
 t1.focus()
 
@@ -40,5 +43,3 @@ def cmd_click(mensagem): - função
 
 widthScreen = menu.winfo_screenwidth() - largura da tela
 heightScreen = menu.winfo_screenheight() - altura da tela
-
-menu.mainloop()
