@@ -43,3 +43,13 @@ def cmd_click(mensagem): - função
 
 widthScreen = menu.winfo_screenwidth() - largura da tela
 heightScreen = menu.winfo_screenheight() - altura da tela
+
+class FrameNome(Frame):
+    def __init__(self, meumaster):
+        super().__init__()
+        self['height'] = 150
+        
+        label_nome = Label(self,text="Nome: ")
+        label_nome.grid(row=0, column=0)
+
+frame_nome1 = FrameNome(root).grid()

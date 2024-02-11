@@ -18,5 +18,4 @@ textBox1.grid()
 button1.grid()
 label2.grid()
 
-
 root.mainloop()
