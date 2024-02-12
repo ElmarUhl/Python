@@ -6,6 +6,7 @@ if 5 > 2:
 
 x = 5
 print(x)
+print('Olá', 5)
 
 """
 This is a comment
