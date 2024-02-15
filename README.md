@@ -14,3 +14,7 @@ To running a python program type in terminal command line ```python3 program_nam
 - ```pip install package_name``` to install a package
 - ```pip uninstall package_name``` to uninstall a packge
 - ```pip list``` to list installed packages
+
+## Usefull Commands
+
+- ```\<ctrl\> + l``` : clean scream in terminal running
