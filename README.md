@@ -8,6 +8,8 @@ Repository with python scripts
 
 To running a python program type in terminal command line ```python3 program_name.py```.
 
+- ⚠️ WARNING - Never give names for your files equal to libraries will be imported! This is give an error on try importing libraries.
+
 ## PIP Usefull Commands
 
 - ```pip --version``` to see the version of pip
