@@ -17,4 +17,4 @@ To running a python program type in terminal command line ```python3 program_nam
 
 ## Usefull Commands
 
-- ```\<ctrl\> + l``` : clean scream in terminal running
+- ```\<ctrl\> + l``` to clean screen, when running in interactive terminal
