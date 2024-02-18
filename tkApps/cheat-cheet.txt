@@ -53,3 +53,7 @@ class FrameNome(Frame):
         label_nome.grid(row=0, column=0)
 
 frame_nome1 = FrameNome(root).grid()
+
+valor_check = IntVar()
+valor_check.get()
+Checkbutton(root, text='Esta é uma checkbox', variable=valor_check, command=apresentar)
