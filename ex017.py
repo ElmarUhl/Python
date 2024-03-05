@@ -1,8 +1,10 @@
-from math import sqrt
+import math
 
-c1 = float(input('Digite o valor de um lado do triângulo retângulo: '))
-c2 = float(input('Digite o valor de outro lado do triângulo retângulo: '))
+c1 = float(input('Type the value length of right triangle side: '))
+c2 = float(input('Type length of another side: '))
 
-hipotenusa = sqrt(c1**2 + c2**2)
+hypotenuse = math.sqrt(c1**2 + c2**2)
 
-print('A medida da hipotenusa é {}'.format(hipotenusa))
+print('The length of hypotenuse is {}'.format(hypotenuse))
+
+print('The length of hypotenuse is {}'.format(math.hypot(c1,c2)))

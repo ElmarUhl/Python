@@ -1,0 +1,20 @@
+ANSI Color Scape Sequences
+
+\033[m
+\033[style;text;backgroundm
+
+Style
+0 none
+1 bold
+4 Underline
+7 Negative
+
+Text Background Color
+30   40         white
+31   41         red
+32   42         green
+33   43         yellow
+34   44         blue
+35   45         violet
+36   46         cyan
+37   47         gray

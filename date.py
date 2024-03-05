@@ -1,13 +1,18 @@
+# Import date library
 import datetime
 
-x = datetime.datetime.now()
+# Get date
+date = datetime.datetime.now()
 
-print(x)
-print(x.year)
-print(x.strftime("%A"))
+print(date)
+print(date.year)
+# Print the week
+print(date.strftime("%A"))
 
-y = datetime.datetime(2020,5,17)
-print(y)
+# Input date
+date2 = datetime.datetime(2020,5,17)
+print(date2)
 
-z = datetime.datetime(2018, 6, 1)
-print(z.strftime("%B"))
+date3 = datetime.datetime(2018, 6, 1)
+# Print month
+print(date3.strftime("%B"))

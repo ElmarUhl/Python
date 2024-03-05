@@ -1,4 +1,5 @@
-valor = float(input('Digite o valor em Reais:'))
 
-conversao = 4.97
-print('Vc pode comprar ${:.2f}.'.format(valor/conversao))
+value = float(input('Type a value in Reais:'))
+
+conversionTax = 4.97
+print('You can buy ${:.2f}.'.format(value/conversionTax))

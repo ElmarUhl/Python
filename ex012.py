@@ -1,2 +1,3 @@
-valor = float(input('Digite o valor da mercadoria: '))
-print('O valor da mercadoria é R$ {:.2f} e com 5% de desconto é R$ {:.2f}'.format(valor,valor - 0.05*valor))
+
+value = float(input('Type the value of goods: '))
+print('The value of goods is R$ {:.2f} and 5% of discount is R$ {:.2f}'.format(value,value - 0.05*value))

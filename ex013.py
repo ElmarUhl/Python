@@ -1,3 +1,4 @@
-salario = float(input('Digite o valor do salário: '))
 
-print('O valor do salário com 15% de aumento é {}'.format(salario + 0.15*salario))
+salary = float(input('Type the value of salary: '))
+
+print('The value of salary with 15% of addition is {}'.format(salary + 0.15*salary))

@@ -1,2 +1,3 @@
-nome = input("Qual o seu nome?")
-print("Seu nome é {}".format(nome))
+
+name = input("What is your name? ")
+print("Your name is {}".format(name))

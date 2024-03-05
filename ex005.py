@@ -1,3 +1,3 @@
-n = int(input('Digite um número inteiro: '))
+n = int(input('Type an integer number: '))
 
-print('O antecessor de {} é {} e seu sucessor é {}.'.format(n, n-1, n+1))
+print('The antecessor of {} is {} and sucessor is {}.'.format(n, n-1, n+1))

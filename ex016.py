@@ -1,5 +1,7 @@
 from math import trunc
 
-n = float(input('Digite um número: '))
+n = float(input('Type a number: '))
 
-print('A parte inteira de {} é {}'.format(n, trunc(n)))
+print('The integer of {} is {}'.format(n, trunc(n)))
+
+print('The integer of {} is {}'.format(n, int(n)))

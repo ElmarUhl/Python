@@ -1,0 +1,88 @@
+# Variables
+msg = "Hello World!"
+
+# Math
+sum = n1 + n2
+area = height * width
+inkLiters = area/2
+number = int(input('Type a number: '))
+unit = number % 10
+ten = number // 10 % 10
+
+
+
+import math
+sqrt(c1**2 + c2**2)
+hypot(c1,c2)
+radians(angle)
+sin(rad)
+cos(rad)
+tan(rad)
+
+
+
+# Inputs
+name = input("What is your name?")
+int(input('Type a number: '))
+float(input('Type the first grade: '))
+str(input('Type the phrase: ')).strip()
+
+# Strings
+print(name.upper())
+print(name.lower())
+print(name.title())
+withoutSpaces = name.replace(' ','')
+name.count(' '))
+firstName = name.split()
+find('A')
+rfind('A')
+
+
+
+
+
+
+# Output
+print(msg)
+print("Your name is {}".format(name))
+print('The antecessor of {} is {} and sucessor is {}.'.format(n, n-1, n+1))
+print('The media of grades is {:.1f}'.format((n1 + n2)/2))
+
+
+# Conditions
+if number > 0:
+elif number < -10:
+else:
+
+# Loops
+while i < 10:
+
+
+# Dates
+import datetime
+
+year 
+
+datetime.now() - get atual date
+datetime(2020,5,17) - Input day yyyy, m, d
+strftime("%A") - days of week
+strftime("%B") - months in year
+
+# Random
+import random
+
+randint(0,3)
+choice(students)
+shuffle(students)
+
+# media
+import playsound
+playsound('embracingthesky.mp3')
+
+# Time
+from time import sleep
+
+sleep(3)
+
+tuplas = ()
+tuplas são imutáveis
