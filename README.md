@@ -21,5 +21,8 @@ To running a python program type in terminal command line ```python3 program_nam
 
 - ```\<ctrl\> + l``` to clean screen, when running in interactive terminal
 
+## Useful Links
+[Python Strings](https://docs.python.org/pt-br/3/library/string.html#formatexamples)
+
 ## PyInstaller
 - ```pyinstaller program.py``` - creates executable from python scripts
