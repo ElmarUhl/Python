@@ -43,7 +43,7 @@ To running a python program type in terminal command line ```python3 program_nam
 [scikit-learn](https://scikit-learn.org/stable/)
 
 ### Quantum Mechanics
-[QMsolve](https://scikit-learn.org/stable/)
+[QMsolve](https://github.com/quantum-visualizations/qmsolve)
 
 # PyInstaller
 - ```pyinstaller program.py``` - creates executable from python scripts
