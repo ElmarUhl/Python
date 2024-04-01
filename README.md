@@ -32,3 +32,7 @@ To running a python program type in terminal command line ```python3 program_nam
 ## PyInstaller
 
 - ```pyinstaller program.py``` - creates executable from python scripts
+
+# Tutorials, Courses Links
+
+1. [Curso Python](https://www.youtube.com/watch?v=U_A2kwUfmlw&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=2)
