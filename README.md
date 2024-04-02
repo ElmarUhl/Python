@@ -27,24 +27,29 @@ To running a python program type in terminal command line ```python3 program_nam
 1. [Curso Python](https://www.youtube.com/watch?v=U_A2kwUfmlw&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=2)
 
 ## The Greatest Python Packages
-### Scientific
-[NumPy](https://numpy.org/)
+### WWW
+[Requests](https://requests.readthedocs.io/en/latest/) [Flask](https://flask.palletsprojects.com/en/3.0.x/) [Django](https://www.djangoproject.com/) 
 
-### Games
-[PyGame](https://www.pygame.org/docs/)
+### Data Science
+[NumPy](https://numpy.org/) [Pandas](https://pandas.pydata.org/) 
+
+### Graphics
+[Plotly](https://plotly.com/) [Matplotlib](https://matplotlib.org/) [Seaborn](https://seaborn.pydata.org/) [Dash](https://dash.plotly.com/) [Streamlit](https://streamlit.io/) 
 
 ### Graphical User Interface - GUI
-[Tkinter](https://docs.python.org/3/library/tkinter.html#)
-[Kivy](https://kivy.org/)
+[Tkinter](https://docs.python.org/3/library/tkinter.html#) [Kivy](https://kivy.org/) [PyQt5](https://pypi.org/project/PyQt5/)
 
 ### Artificial Intelligence
-[Keras](https://keras.io/)
-[OpenCV](https://opencv.org/)
-[scikit-learn](https://scikit-learn.org/stable/)
+[Keras](https://keras.io/) [TensorFlow](https://www.tensorflow.org/?hl=pt-br) [OpenCV](https://opencv.org/) [Pillow](https://pypi.org/project/pillow/) [scikit-learn](https://scikit-learn.org/stable/) [PyTorch](https://pytorch.org/) [NLTK](https://www.nltk.org/)
+
+### Automation
+[Selenium](https://selenium-python.readthedocs.io/) [Scrapy](https://scrapy.org/) [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/) [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/) [Pyodbc](https://pypi.org/project/pyodbc/) [Pywin32](https://pypi.org/project/pywin32/) 
 
 ### Quantum Mechanics
 [QMsolve](https://github.com/quantum-visualizations/qmsolve)
 
+### Games
+[PyGame](https://www.pygame.org/docs/)
+
 # PyInstaller
 - ```pyinstaller program.py``` - creates executable from python scripts
-
