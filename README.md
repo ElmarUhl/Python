@@ -1,6 +1,17 @@
 # ![python](https://github.com/ElmarUhl/Python/assets/157088447/93858dae-c27b-4bab-8c9a-d3c15adccd0c)
 
-Repository with python scripts
+Python is a popular and versatile high-level programming language
+
+This means it's designed to be easy to read and understand, close to natural language,  allowing programmers to focus on the logic of their code rather than the intricacies of the machine.
+
+Here are some key features of Python:
+
+- Readability: Python uses clear syntax with minimal punctuation and relies on indentation to define code blocks, making it visually appealing and easier to learn.
+- Versatility: Python is a general-purpose language, meaning it can be used for a wide range of applications, including web development, data science, machine learning, automation, and scientific computing.
+- Large Standard Library: Python comes with a comprehensive standard library that includes a variety of built-in modules and functions for common tasks, reducing the need to write code from scratch.
+- Free and Open-Source: Python is free to use and distribute, with an active and supportive community that contributes to its development and offers a wealth of learning resources.
+
+These qualities make Python a popular choice for beginners and experienced programmers alike. Whether you're looking to build a website, analyze data, or automate tasks, Python is a powerful tool worth considering.
 
 # How to Running Python Programs
 To running a python program type in terminal command line ```python3 program_name.py```.
