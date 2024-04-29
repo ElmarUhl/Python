@@ -1,0 +1,14 @@
+# Alinhamentos
+
+{:30} - field size
+{:<30} - right aligned
+{:>30} - right aligned
+{:^30} - centered
+{:*^30} - centered  # use '*' as a fill char
+{:+f} - show signal always
+{: f} - show a space for positive numbers
+{:-f} - show only the minus -- same as {:f}
+{0:d} {0:x} {0:o} {0:b} - decimal, hexadecimal, octal, binary formats
+{0:#x}  {0:#o} {0:#b} - hexadecimal, octal and binary formats with prefix
+{:,} - comma as thousands separator
+{:%Y-%m-%d %H:%M:%S} - date format
