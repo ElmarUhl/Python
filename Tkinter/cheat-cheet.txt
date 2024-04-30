@@ -1,0 +1,113 @@
+# Program Structure
+
+from tkinter import *
+
+name_class = Tk()
+{ Código }
+name_class.mainloop()
+
+# Window
+title("Texto") - Título da janela
+geometry("widthxheight+x+y") - definição de geometria da janela
+geometry("%dx%d+%d+%d" %(width, height, posx, posy))
+resizable(True,False) - permissões de redimensionamento da janela
+name_class['bg'] = 'yellow' - cor de fundo da janela
+
+# Button
+Button(menu,text="Executar", command= lambda: cmd_click("Olá")) - cria botão associado ao comando
+
+# Label
+Label(menu,text="label",bg="yellow",fg="#ff0000",font="Arial 20 bold italic",width=40,height=4, bd=1,relief="solid",padx=10,pady=10)
+Label(menu,text="label1\nlabel1", justify=LEFT,anchor=W, textvariable=texto)
+
+
+
+
+t = Entry(root) - caixa de entrada
+l["text"] = t.get() - coloca na label o texto da caixa de entrada t
+final.set(str(round(C,1)) + " graus Celsius")
+
+t1.focus()
+
+def cmd_click(mensagem): - função
+    print(mensagem)
+
+widthScreen = menu.winfo_screenwidth() - largura da tela
+heightScreen = menu.winfo_screenheight() - altura da tela
+
+class FrameNome(Frame):
+    def __init__(self, meumaster):
+        super().__init__()
+        self['height'] = 150
+        
+        label_nome = Label(self,text="Nome: ")
+        label_nome.grid(row=0, column=0)
+
+frame_nome1 = FrameNome(root).grid()
+
+valor_check = IntVar()
+valor_check.get()
+Checkbutton(root, text='Esta é uma checkbox', variable=valor_check, command=apresentar)
+
+lista = Listbox(root)
+lista.insert(END,"Primeiro item da lista")
+nomes = ['João', 'Ana', 'Carlos']
+for nome in nomes:
+    lista.insert(END, nome)
+lista.delete(1, 1)
+def executar():
+    print(lista.get(ACTIVE))
+
+t = Message(root, text="Este é o texto do message widget.", width=400)
+
+def vervalor():
+    print(slide.get())
+slide = Scale(root, from_=0, to=100, orient='horizontal',resolution=0.5)
+button = Button(root, text='Mostrar', command=vervalor)
+
+ra_1 = Radiobutton(frameA, text='Opção A 1', variable=valor_a, value=1, command=opcao)
+ra_2 = Radiobutton(frameA, text='Opção A 2', variable=valor_a, value=2, indicatoron=0)
+ra_2.select()
+def verRadio():
+    print(valor_a.get())
+cmd = Button(root, text='Click', command=verRadio)
+
+def file():
+    print('File')
+
+meuMenu = Menu(root)
+meuMenu.add_command(label='File')
+meuMenu.add_command(label='Edit')
+
+fileMenu = Menu(meuMenu, tearoff=0)
+fileMenu.add_command(label='New')
+fileMenu.add_separator()
+fileMenu.add_command(label='Exit', command=exit)
+meuMenu.add_cascade(label='File', menu=fileMenu)
+
+root.config(menu=meuMenu)
+
+s1 = Spinbox(root, from_=0, to=10)
+s2 = Spinbox(root, values=(10,20,30, 35,40,55), wrap=True)
+s3 = Spinbox(root, values=('Caio', 'Tício', 'Mévio'))
+def executar():
+    print(s2.get())
+
+top = Toplevel()
+top.title('Novo formulário')
+top.geometry('200x100')
+lb1 = Label(top, text='Label na top')
+lb1.pack()
+btn = Button(root, text='Novo...', command=abrir_formulario)
+
+# Pack
+pack() - empacotamento
+grid(row=0,column=0)
+grid(column=0)
+grid(columnspan=2, sticky="we")
+
+
+# Variables
+texto = StringVar()
+texto.set("texto na variavel")
+number = float(textBox1.get())
