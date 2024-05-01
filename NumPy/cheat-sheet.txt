@@ -1,0 +1,36 @@
+# Library import
+import numpy as np - includes basic numpy library
+from numpy.random import default_rng - include library for random numbers
+
+# Functions
+np.array([x,...],[...],...) - array create
+np.zeros(shape=[n1,...]) - creates an array of dimension n1,... with zeros
+np.ones([n1,...]) - creates an array of dimension n1,... with 1
+np.empty((n1,...)) - creates an array of dimension n1,... empty (values are near zero)
+np.arange(1,5) - creates an array with elements from 1 to 4
+np.linspace(0, 20, 30) - creates an array with 30 interpolated elements from 0 to 20
+np.concatenate((a,b)) - concatenates a and b arrays
+
+# Array Operations
+a.shape - array dimensions
+a.size - number of array elements
+a.ndim - number of array dimensions
+a.sum() - sum elements of array
+a.max() - highest value element of array
+a.min() - lowest value element of array
+a.mean() - mean value of value elements of array
+
+# Array Resize
+a[np.newaxis,:] - insert a new row in array
+a[:,np.newaxis] - insert a new column in array
+
+# Arry Elemens Acess
+a[2][0] - acess an element in array
+a[k%2 == 0] - acess an element in array by its property
+
+# Random Numbers
+rng = default_rng() - initiates object to manipulates random numbers
+rng.integers(0, 10, size=(...)) - creates an array of integers random numbers between 0 and 10
+
+# Obs
+- All values in array are same type
