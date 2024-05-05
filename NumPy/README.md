@@ -1,4 +1,4 @@
-![NumPy](https://github.com/ElmarUhl/Numpy/assets/157088447/d0790b6e-77ce-40c6-adac-0233a3856b06)
+![NumPy](https://github.com/ElmarUhl/Python/assets/157088447/113c3a04-ae75-47d1-b7f0-fecf98bb35db)
 
 # Numpy
 Numpy repository with basic program examples
