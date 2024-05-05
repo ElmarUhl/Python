@@ -1,4 +1,4 @@
-![Python](https://github.com/ElmarUhl/Tkinter/assets/157088447/349d677c-5f89-45bf-aed9-fd5bd2d1c334)
+![tkinter](https://github.com/ElmarUhl/Python/assets/157088447/bb92cf47-36da-4d41-b10f-38fa77c3f56b)
 
 # Install Tkinter
 
