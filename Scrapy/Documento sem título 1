@@ -1,0 +1,30 @@
+http://quotes.toscrap.com
+
+scrapy shell http://quotes.toscrap.com --nolog
+
+response.url
+
+------------------------------------------
+response.xpath('*//div/span[@class="text"]').get()
+response.xpath('*//div/span[@class="text"]/text()').getall()
+len(response.xpath('*//div/span[@class="text"]/text()').getall()
+
+---------------------------------------------------------------------
+response.css('small.author::text').getall()
+
+response.xpath('*//div[@class="quote"]')[0]
+q = response.xpath('*//div[@class="quote"]')[0]
+q.xpath('//span[@class="text"]')
+q.xpath('//span[@class="text"]').get()
+q.xpath('//span[@class="text"]/text()').get()
+q.xpath('//div[@class="tags"]/a[@class="tag"]/text()').getall()
+q.xpath('.//div[@class="tags"]/a[@class="tag"]/text()').getall()
+
+scrapy runspider nomefile
+scrapy runspider nomefile -o quotes.json
+
+response.xpath('*//li[@class="next"]/a/@href')
+response.xpath('*//li[@class="next"]/a/@href').get()
+
+response.urljoin(nextpage)
+
